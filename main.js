@@ -12,5 +12,11 @@ let Result=()=>{
         alert("Enter the valid result");
     }
 }
+clr=()=>{
+    result.value = " ";
+}
+del=()=>{
+    result.value = result.value.slice(0,-1);
+}
 
 
